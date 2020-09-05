@@ -1,0 +1,23 @@
+{
+//	"rust-analyzer.inlayHints.chainingHints":false,
+//	"rust-analyzer.updates.channel":"nightly",
+//	"rust-analyzer.cargo.noDefaultFeatures":true,
+//	"rust-analyzer.lens.enable":false,
+	"rust-analyzer.lens.enable":true,
+	"codeLens.enable":true,
+	"diagnostic.refreshOnInsertMode": true,
+	"coc.preferences.hoverTarget":"float",
+	"coc.preferences.colorSupport": true,
+	"diagnostic.enable":true,
+	"coc.preferences.bracketEnterImprove": true,
+	"coc.preferences.enableFloatHighlight":true,
+	"suggest.floatEnable":true,
+	"signature.enable":true,
+	"signature.target":"float",
+	"signature.hideOnTextChange":false,
+	"suggest.echodocSupport":true,
+	"signature.triggerSignatureWait":100,
+	"suggest.enablePreview":true,
+  "coc.source.word.filetypes": [ "markdown", "text" ]
+}
+

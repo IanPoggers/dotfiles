@@ -1,0 +1,5 @@
+alias sudo="sudo "
+alias sps="sudo xbps-install"
+alias ls=exa
+alias vim=nvim
+alias cat='bat -pp'
