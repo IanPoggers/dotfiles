@@ -6,17 +6,23 @@ tags = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 command = "Execute"
 value = "dmenu_run"
 modifier = ["modkey"]
-key = "p"
+key = "s"
 
 [[keybind]]
 command = "Execute"
 value = "alacritty"
-modifier = ["modkey", "Shift"]
-key = "Return"
+modifier = ["modkey"]
+key = "k"
+
+[[keybind]]
+command = "Execute"
+value = "firefox"
+modifier = ["modkey"]
+key = "f"
 
 [[keybind]]
 command = "CloseWindow"
-modifier = ["modkey", "Shift"]
+modifier = ["modkey"]
 key = "q"
 
 [[keybind]]
@@ -44,7 +50,7 @@ key = "w"
 [[keybind]]
 command = "SwapTags"
 modifier = ["modkey"]
-key = "w"
+key = "Tab"
 
 [[keybind]]
 command = "MoveWindowUp"
